@@ -1,6 +1,7 @@
 # NLP-MTL
+[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)
 
-Simple project of which I trained an NLP for classification of free text using multi-task learning, effectively being able to solve multiple tasks at once in the same network.
+Code from a workshop of which I trained an NLP to solve multiple classification tasks simultaneously from free text. For this I trained a neural network using multi-task learning (MTL), using the openly available Amazon review data set.
 
 The project was part of the Cogito NLP workshop Spring 2020.
 
@@ -16,3 +17,7 @@ Then go inside the workshop folder, and simply run the train script to preproces
 cd cogito-nlp-workshop-spring-2020/
 python train.py
 ```
+
+------
+
+Made with :heart: and python
