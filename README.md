@@ -8,7 +8,7 @@ The project was part of the Cogito NLP workshop Spring 2020, with [Strise](https
 Simply make virtual environment, activate it, and install dependencies:
 ```
 virtualenv -ppython3 venv --clear
-sourve venv/bin/activate
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 
