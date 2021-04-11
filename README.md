@@ -3,7 +3,7 @@
 
 Code from a workshop of which I trained an NLP to solve multiple classification tasks simultaneously from free text. For this I trained a neural network using multi-task learning (MTL), using the openly available Amazon review data set.
 
-The project was part of the Cogito NLP workshop Spring 2020.
+The project was part of the Cogito NLP workshop Spring 2020, with [Strise](https://github.com/strise/cogito-workshop-spring-2020).
 
 Simply make virtual environment, activate it, and install dependencies:
 ```
