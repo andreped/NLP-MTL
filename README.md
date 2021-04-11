@@ -18,6 +18,12 @@ cd cogito-nlp-workshop-spring-2020/
 python train.py
 ```
 
+TIPS:
+If any issues with numpy is observed when installing of dependencies using requirements file, attempt to change numpy version:
+```
+pip install numpy==1.16.0
+```
+
 ------
 
 Made with :heart: and python
