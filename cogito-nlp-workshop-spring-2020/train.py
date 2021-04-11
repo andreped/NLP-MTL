@@ -98,13 +98,13 @@ for review in tqdm(dataset):
 
 from bert_embedding import BertEmbedding
 
-bert_embedding = BertEmbedding()
-X = bert_embedding(review_texts)
+# extract features using BERT
+#bert_embedding = BertEmbedding()
+#X = bert_embedding(review_texts)
 
-
-# extract features
-#vectorizer = HashingVectorizer(n_features=5000) #CountVectorizer(max_features=5000) #HashingVectorizer(n_features=5000) # #TfidfVectorizer(max_features=5000)
-#X = vectorizer.fit_transform(review_texts)
+# extract features using simple word count
+vectorizer = HashingVectorizer(n_features=5000) #CountVectorizer(max_features=5000) #HashingVectorizer(n_features=5000) # #TfidfVectorizer(max_features=5000)
+X = vectorizer.fit_transform(review_texts)
 
 y1 = np.array(deps)
 y2 = np.array(recommends)#.astype(int)
