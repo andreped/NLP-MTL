@@ -5,6 +5,7 @@ Code from a workshop of which I trained a deep neural network to solve multiple 
 
 The project was part of the Cogito NLP workshop Spring 2020, with [Strise](https://github.com/strise/cogito-workshop-spring-2020).
 
+### How to use
 Simply make virtual environment, activate it, and install dependencies:
 ```
 virtualenv -ppython3 venv --clear
@@ -18,7 +19,7 @@ cd cogito-nlp-workshop-spring-2020/
 python train.py
 ```
 
-TIPS:
+### TIPS
 If any issues with numpy is observed when installing of dependencies using requirements file, attempt to change numpy version:
 ```
 pip install numpy==1.16.0
