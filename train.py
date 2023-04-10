@@ -129,11 +129,8 @@ def main():
 	y2_test = y2[int(val2*N):]
 	y3_test = y3[int(val2*N):]
 
-	N = X.shape[0]
-	num_feats = X.shape[1]
-
 	# define model
-	model = get_model()
+	model = get_model(num_feats=X.shape[1], [nb_classes1, nb_classes2, nb_classes3])
 
 	# compile
 	model.compile(
@@ -171,9 +168,9 @@ def main():
 		preds2.append(np.argmax(tmp[1]))
 		preds3.append(np.argmax(tmp[2]))
 
-	y1_orig_test = y1_orig[int(val2*N):]
-	y2_orig_test = y2_orig[int(val2*N):]
-	y3_orig_test = y3_orig[int(val2*N):]
+	y1_orig_test = y1_orig[int(val2 * N):]
+	y2_orig_test = y2_orig[int(val2 * N):]
+	y3_orig_test = y3_orig[int(val2 * N):]
 
 	print("##### Results #####")
 	print(classes1)
