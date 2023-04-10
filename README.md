@@ -15,7 +15,6 @@ pip install -r requirements.txt
 
 Perform experiment by running the following lines:
 ```
-cd cogito-nlp-workshop-spring-2020/
 python train.py
 ```
 

@@ -23,9 +23,3 @@ NLP:
 - Main challenge, natural language is ambigeous and complex -> need to kind of guess a lot
 - split sentence in sentences -> split on periods ex.
 - Classify text if positive or negative -> IMDB dataset
-
-
-
-
-
-
